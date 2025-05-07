@@ -5,7 +5,7 @@
     <img src="https://github.com/panliangrui/NIPS2025/blob/main/liucheng.png" width="800" height="400" />
   </a>
 
-  <h1>STAS(NGS, Histopathology images)</h1>
+  <h1>PathGene(NGS, Histopathology images)</h1>
   Flowchart of the collection and preprocessing of lung cancer patients’ histopathology images and NGS data.
 
   <p>
@@ -36,7 +36,7 @@
   </div>
 </div>
 
-# SMILE: a Scale-aware Multiple Instance Learning Method for Multicenter STAS  Lung Lancer Histopathology Diagnosis
+# PathGene: A benchmark for predicting driver gene mutations and exons based on a multicenter lung cancer histopathology image dataset
 
 ## Table of Contents
 
