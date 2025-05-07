@@ -5,7 +5,8 @@
     <img src="https://github.com/panliangrui/NIPS2025/blob/main/liucheng.png" width="800" height="400" />
   </a>
 
-  <h1>STAS(solid nests, micropapillary clusters, single cells)</h1>
+  <h1>STAS(NGS, Histopathology images)</h1>
+  Flowchart of the collection and preprocessing of lung cancer patients’ histopathology images and NGS data.
 
   <p>
   Anonymous Author et al. is a developer helper.
