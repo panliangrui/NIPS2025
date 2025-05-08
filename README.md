@@ -70,21 +70,32 @@ python create_patches_fp.py
 ```markdown
 python extract_features_fp.py
 ```
-For the .h5 file with multi-scale features in the multi_graph_1 folder (for example: 1479844-3-HE.h5), the reading code is as follows:
+For the .h5 file with multi-scale features in the multi_graph_1 folder (for example: 1479844-3-HE.h5), the process code as follows:
 ```markdown
 ```python
 with h5py.File(./gene/csu/multi_graph_1/1479844-3-HE.h5, 'r') as hf:
-    # Read x_img_256 and the corresponding edge
+    # obtain x_img_256 and the related edge
     x_img_256 = hf['x_img_256'][:]
     x_img_256_edge = hf['x_img_256_edge'][:]
 
-    # Read x_img_512 and the corresponding edge
+    # obtain x_img_512 and the related edge
     x_img_512 = hf['x_img_512'][:]
     x_img_512_edge = hf['x_img_512_edge'][:]
 
-    # Read x_img_1024 and the corresponding edge
+    # obtain x_img_1024 and the related edge
     x_img_1024 = hf['x_img_1024'][:]
     x_img_1024_edge = hf['x_img_1024_edge'][:]
+```
+
+For the .h5 file with TME features in the TME folder (for example: 1479844-3-HE_graph.h5), the process code as follows:
+```markdown
+```python
+with h5py.File(./gene/csu/TME/1479844-3-HE_graph.h5, 'r') as hf:
+    # obtain node_features
+    node_features = hf['node_features'][:]
+
+    # obtain edges
+    edges = hf['edges'][:]
 ```
 
 
