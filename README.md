@@ -72,6 +72,7 @@ python extract_features_fp.py
 ```
 For the .h5 file in the multi_graph_1 folder (for example: 1479844-3-HE.h5), the reading code is as follows:
 ```markdown
+```python
 with h5py.File(./gene/csu/multi_graph_1/1479844-3-HE.h5, 'r') as hf:
     # Read x_img_256 and the corresponding edge
     x_img_256 = hf['x_img_256'][:]
