@@ -60,7 +60,7 @@ Use the pre-trained model for feature preprocessing and build the spatial topolo
 
 ### Feature Extraction
 
-The original WSI needs permission from the Second Xiangya Hospital to be used. If WSI is used for commercial purposes, the dataset will be protected by law. We support the following 21 pre-trained basic models to extract the feature representation of WSI. Please contact us by email before using. (Highly recommended!!)
+The original WSI needs permission from the Second Xiangya Hospital to be used. If WSI is used for commercial purposes, the dataset will be protected by law. We support the following 21 pre-trained foundation models to extract the feature representation of WSI. Please contact us by email before using. (Highly recommended!!)
 
 | Patch Encoder         | Embedding Dim | Args                                                             | Link |
 |-----------------------|---------------:|------------------------------------------------------------------|------|
