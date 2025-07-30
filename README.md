@@ -253,6 +253,10 @@ link: https://pan.baidu.com/s/1zpt7D_XNgqZpLnUyOmtkgA?pwd=8yn6 password: 8yn6
 - NVIDIA GPU (Tested on a single Nvidia GeForce RTX 4090)
 - Python (3.7.11), h5py (2.10.0), opencv-python (4.1.2.30), PyTorch (1.10.1), torchvision (0.11.2), pytorch-lightning (1.5.10).
 
+##Interpretability Analysis
+
+
+Figure 2. Interpretability analysis of WSI predicted by TransMIL in patients without target gene mutations in high and low TMB states. For WSI with high and low TMB, the areas of pathologists’ attention on the WSI were first visualized and analyzed, and then the attention prediction heat map at 20X was visualized using TransMIL and finally the TME density map was visualized. Given that there was no statistical difference between the high TMB group and the low TMB group, it was not possible to calculate and count the key biomarkers associated with high and low TMB. a: Interpretability analysis of WSI predicted by TransMIL in the high TMB state. b: Interpretability analysis of WSI predicted by TransMILin the low TMB state.
 
 ## License
 If you need the original histopathology image slides, please send a request to our email address. The email address will be announced after the paper is accepted. Thank you!
