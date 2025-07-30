@@ -255,7 +255,7 @@ link: https://pan.baidu.com/s/1zpt7D_XNgqZpLnUyOmtkgA?pwd=8yn6 password: 8yn6
 
 ##Interpretability Analysis
 
-
+！[](https://github.com/panliangrui/NIPS2025/blob/main/TMB.jpg)
 Figure 2. Interpretability analysis of WSI predicted by TransMIL in patients without target gene mutations in high and low TMB states. For WSI with high and low TMB, the areas of pathologists’ attention on the WSI were first visualized and analyzed, and then the attention prediction heat map at 20X was visualized using TransMIL and finally the TME density map was visualized. Given that there was no statistical difference between the high TMB group and the low TMB group, it was not possible to calculate and count the key biomarkers associated with high and low TMB. a: Interpretability analysis of WSI predicted by TransMIL in the high TMB state. b: Interpretability analysis of WSI predicted by TransMILin the low TMB state.
 
 ## License
