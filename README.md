@@ -5,7 +5,7 @@
     <img src="https://github.com/panliangrui/NIPS2025/blob/main/liucheng.png" width="800" height="400" />
   </a>
 
-  <h1>PathGene(NGS, Histopathology images)</h1>
+  <h1>PathGene(NGS, Histopathology images) Our dataset was maliciously rejected in NIPS2025. Please do not use our dataset to avoid legal and ethical disputes. </h1>
   Flowchart of the collection and preprocessing of lung cancer patients’ histopathology images and NGS data.
 
   <p>
